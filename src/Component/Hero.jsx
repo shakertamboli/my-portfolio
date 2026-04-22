@@ -3,7 +3,7 @@ import instagram from "../assets/instagram.png";
 import tiktok from "../assets/tiktok.png";
 import github from "../assets/github.png";
 import youtube from "../assets/youtube.png";
-import CV from "../assets/CV.pdf";
+import SHAKER_CV from "../assets/SHAKER_CV.pdf";
 import { DownloadIcon, Mail } from "lucide-react";
 import hero1 from "../assets/hero1.png";
 import hi from "../assets/hi.png";
@@ -101,7 +101,7 @@ const Hero = ({ darkMode }) => {
                   data-aos="fade-up"
                   data-aos-delay="700"
                 >
-                  <a href={CV} download className="w-full sm:w-auto">
+                  <a href={SHAKER_CV} download className="w-full sm:w-auto">
                     <button
                       className="w-full sm:w-auto inline-flex items-center justify-center
                       text-white bg-linear-to-r from-orange-500 to-amber-500 border-0 py-3 px-6
